@@ -2,11 +2,7 @@ import React, { useContext, useReducer, useState } from "react";
 
 export const AppContext = React.createContext();
 
-// useReducer
-// initState
-// reducer( currentState, action ) => returns newState
-// action is just an object
-// { type: "" }
+
 // it can other fields
 const initState = {
   isAuth: false,
